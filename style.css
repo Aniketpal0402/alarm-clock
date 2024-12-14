@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.head {
+  /* border: 1px solid black; */
+  margin-bottom: 40px;
+}
+
+#alaram {
+  text-align: center;
+  height: 60px;
+  padding-top: 6px;
+  background-color: rgb(8, 74, 74);
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  display: flex;
+  height: 50px;
+  width: 700px;
+  margin: 0px auto;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.main h4 {
+  margin-top: 25px;
+  color: rgb(8, 74, 74);
+  font-size: 30px;
+}
+
+.main h1 {
+  padding: 0px 7px;
+  font-size: 35px;
+  color: rgb(8, 74, 74);
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.main2 h4 {
+  font-size: 30px;
+  color: rgb(8, 74, 74);
+}
+
+/* mid */
+.mid {
+  /* border: 1px solid rgb(0, 0, 0); */
+  /* height: 100px; */
+  /* background-color: red; */
+  width: 1200px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+}
+
+.heading {
+  text-align: center;
+  /* border: 1px solid red; */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  /* width: 400px; */
+  font-size: 15px;
+  /* justify-content:; */
+  cursor: pointer;
+}
+
+.heading i {
+  margin-left: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.display {
+  justify-content: space-between;
+  margin: 20px 0px;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  display: none;
+}
+
+.time-container {
+  display: flex;
+  width: 1150px;
+  /* background-color: red; */
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+#check {
+  background-color: rgb(8, 74, 74);
+  color: white;
+  border-radius: 5x;
+  font-size: 25px;
+
+}
+
+#add {
+  background-color: rgb(8, 74, 74);
+  color: white;
+  border-radius: 5x;
+}
+
+#restart {
+  background-color: rgb(8, 74, 74);
+  ;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+
+.display select {
+  background-color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 0px 10px;
+  border: 2px dotted black;
+  color: black;
+}
+
+.icons {
+  font-size: 30px;
+  margin: 0px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footerNEW {
+  height: 100px;
+  /* border: 1px solid black; */
+  width: 750px;
+  display: flex;
+  /* justify-content: center; */
+  margin: 10px auto;
+
+}
+
+.userTIME {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid blue; */
+  justify-content: space-around;
+  font-size: 45px;
+  text-align: center;
+}
+
+.userTIME i {
+  font-size: 40px;
+  background-color: red;
+  color: white;
+}
+
+.heading4 {
+  display: flex;
+}
+
+.userD {
+  margin-right: 25px;
+}
